@@ -10,7 +10,6 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd
         http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa-1.0.xsd ">
 	
-	<context:property-placeholder location="classpath:properties/stockerticker.properties" />	
 	<!-- Activates various annotations to be detected in bean classes -->
 	<context:annotation-config />
 
